@@ -1,0 +1,36 @@
+body{
+background-color:#1b0762;
+color:white;
+font-size:20px;
+font-family:Cursive; 
+}
+h1{
+font-size:18px;
+color:blue;
+}
+h5{
+	border:solid;
+}
+
+a:link {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: purple;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: #1ceee4;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+

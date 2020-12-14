@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" /> <! -- Mettre des caractères spéciaux sans problèmes de compréhension du moteur de recherche. -->
+    <title>La mini fabrique à savons !</title>
+    <link rel="stylesheet" href="CSS.css" />	
+	<script type="text/javascript" src="Commandejava.js"></script>
+    <h1>La mini fabrique à savons !</h1>
+</head>
+<body>
+    <div class="navbar" id='myTopnav'>
+        <a href="Bienvenue.html">Bienvenue !</a>
+        <a href="Savons.html">Savons de toutes sortes !</a>
+        <a href="Les anciens.html">Nos anciens savons !</a>
+        <a href="Commandes.html">Pour passer vos commandes !</a>
+        <div class="topnav-right">
+            <a href="BienvenueA.html"><img src="photo/andrap.png" height="30px" width="45px" title="English !" /></a>
+        </div>
+    </div>
+    <p>Il est possible que des savons ne soient plus dans nos stocks et le temps de cure est d'environ un mois. Il faudra donc dans ce cas attendre un petit peu, à moins que nous ne le fassions plus. </p>
+    <p> PS: Le site est et sera toujours régulièrement actualisé.</p>
+
+    <form id="commande" action="http://127.0.0.2/reponse.php" method="get">
+        <label for="Prénom">Prénom:</label><br>
+        <input type="text" id="Prénom" name="Prénom" value="" required><br>
+        <label for="Nom">Nom:</label><br>
+        <input type="text" id="Nom" name="Nom" value="" required><br>
+        <label for="Tel">Téléphone:</label><br>
+        <input type="tel" id="Téléphone" name="Téléphone" placeholder="Avec tiret ! " pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}" required><br>
+        <label for="Sav">Savons :</label><br>
+        <input type="text" id="Savons" name="Savons" placeholder="Mettez ici la liste des savons commandé : " size="50" maxlength="1000" width="50" required><br>
+        <input type="submit" style="border:0px" onclick="testpopup()" class="submit" value="Commander">
+    </form>
+
+    <p>Bonne douche ! </p>
+
+    <div class="footer">
+        <div id="button"></div>
+        <div id="container">
+            <div id="cont">
+                <div class="footer_center">
+                    <h3>La mini fabrique à savons !</h3>
+                    <p>Savons faits par Richard et Jules BOSSIS.</p>
+                    <p>Site réalisé par Jules BOSSIS--GUYON.</p>
+                        <p>Copyright © <script type="text/javascript"> document.write(new Date().getFullYear()); </script> - Tous droits réservés.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

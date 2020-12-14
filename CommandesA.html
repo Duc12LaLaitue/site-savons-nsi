@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+ 	<meta charset="utf-8" />
+<head>
+<title>La mini fabrique à savons !</title>
+<link rel="stylesheet" href="CSS.css"/>
+<h1>La mini fabrique à savons !</h1>
+</head>
+<body>
+<div class="navbar" id='myTopnav'>
+  <a href="BienvenueA.html">Welcome !</a>
+  <a href="SavonsA.html">All kinds of soaps !</a>
+  <a href="Les anciensA.html">Our old kinds of soaps !</a>
+  <a href="CommandesA.html">Place your orders !</a>
+  <div class="topnav-right">
+  <a href="Bienvenue.html"><img src="photo/frdrap.png" height="30px" width="45px"/></a>
+  </div>
+</div>
+<p>
+It is possible that soaps are no longer in our stocks and the cure time is approximately one month. However, it is possible that we may no longer make some known. </p>
+<form id="commande" action="http://127.0.0.2/reponse.php" method="get">
+  <label for="Prénom">Prénom:</label><br>
+  <input type="text" id="Prénom" name="Prénom" value="" required><br>
+  <label for="Nom">Nom:</label><br>
+  <input type="text" id="Nom" name="Nom" value="" required><br>
+  <label for="Tel">Téléphone:</label><br>
+  <input type="tel" id="Téléphone" name="Téléphone" placeholder="Avec tiret ! "  required><br>
+  <label for="Sav">Savons :</label><br>
+  <input type="text" id="Savons" name="Savons" placeholder="Mettez ici la liste des savons commandé : "size="50" maxlength="1000" width="50" required><br>
+  <input type="submit" style="border:0px" onclick="testpopup()" class="submit" value="Commander">
+</form> 
+<p>Good shower ! </p>
+
+    <div class="footer">
+        <div id="button"></div>
+        <div id="container">
+            <div id="cont">
+                <div class="footer_center">
+                    <h3>La mini fabrique à savons !</h3>
+                        <p>Savons faits par Richard et Jules BOSSIS.</p>
+                        <p>Site réalisé par Jules BOSSIS--GUYON.</p>
+                        <p>Copyright © <script type="text/javascript"> document.write(new Date().getFullYear()); </script> - Tous droits réservés.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
